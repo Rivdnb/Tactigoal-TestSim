@@ -1,0 +1,79 @@
+{
+    "Name": "Striker",
+    "Symbol": "ST",
+    "AmountPerPlayer": 2,
+    "FirstMovementRules": [
+        {
+            "DirectionName": "BackLeft",
+            "MoveVector": {
+                "RowDelta": -1,
+                "ColumnDelta": -1
+            },
+            "MinDistance": 0,
+            "MaxDistance": 0
+        },
+        {
+            "DirectionName": "Back",
+            "MoveVector": {
+                "RowDelta": -1,
+                "ColumnDelta": 0
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "BackRight",
+            "MoveVector": {
+                "RowDelta": -1,
+                "ColumnDelta": 1
+            },
+            "MinDistance": 0,
+            "MaxDistance": 0
+        },
+        {
+            "DirectionName": "Left",
+            "MoveVector": {
+                "RowDelta": 0,
+                "ColumnDelta": -1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "Right",
+            "MoveVector": {
+                "RowDelta": 0,
+                "ColumnDelta": 1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "Forwardleft",
+            "MoveVector": {
+                "RowDelta": 1,
+                "ColumnDelta": -1
+            },
+            "MinDistance": 0,
+            "MaxDistance": 0
+        },
+        {
+            "DirectionName": "Forward",
+            "MoveVector": {
+                "RowDelta": 1,
+                "ColumnDelta": 0
+            },
+            "MinDistance": 1,
+            "MaxDistance": 3
+        },
+        {
+            "DirectionName": "ForwardRight",
+            "MoveVector": {
+                "RowDelta": 1,
+                "ColumnDelta": 1
+            },
+            "MinDistance": 0,
+            "MaxDistance": 0
+        }
+    ]
+}

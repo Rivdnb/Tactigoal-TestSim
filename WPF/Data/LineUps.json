@@ -1,0 +1,82 @@
+{
+    "List": [
+            {   
+            "Name": "Default",
+            "IsPlayerOne": true,
+            "BoardRows": 20,
+            "BoardColumns": 9,
+            "UnitsData": [
+                {
+                    "Name": "Defender",
+                    "CurrentPosition": {
+                        "Row": 3,
+                        "Column": 3
+                    }
+                },
+                {
+                    "Name": "Defender",
+                    "CurrentPosition": {
+                        "Row": 3,
+                        "Column": 5
+                    }
+                },
+                {
+                    "Name": "WingBack",
+                    "CurrentPosition": {
+                        "Row": 4,
+                        "Column": 1
+                    }
+                },
+                {
+                    "Name": "WingBack",
+                    "CurrentPosition": {
+                        "Row": 4,
+                        "Column": 7
+                    }
+                },
+                {
+                    "Name": "Anchor",
+                    "CurrentPosition": {
+                        "Row": 5,
+                        "Column": 3
+                    }
+                },
+                {
+                    "Name": "Compass",
+                    "CurrentPosition": {
+                        "Row": 5,
+                        "Column": 5
+                    }
+                },
+                {
+                    "Name": "Winger",
+                    "CurrentPosition": {
+                        "Row": 7,
+                        "Column": 1
+                    }
+                },
+                {
+                    "Name": "Winger",
+                    "CurrentPosition": {
+                        "Row": 7,
+                        "Column": 7
+                    }
+                },
+                {
+                    "Name": "Key",
+                    "CurrentPosition": {
+                        "Row": 7,
+                        "Column": 4
+                    }
+                },
+                {
+                    "Name": "Striker",
+                    "CurrentPosition": {
+                        "Row": 9,
+                        "Column": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

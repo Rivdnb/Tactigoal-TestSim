@@ -1,1 +1,4 @@
-<Solution />
+<Solution>
+  <Project Path="Core/Core.csproj" Id="560e0c6e-288b-42ac-a6f2-383b085d5a03" />
+  <Project Path="WPF/WPF.csproj" Id="ee3539b5-3c4d-4ae9-bdd2-5833997937fc" />
+</Solution>

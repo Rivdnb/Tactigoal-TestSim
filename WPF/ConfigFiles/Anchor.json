@@ -1,0 +1,86 @@
+{
+    "Name": "Anchor",
+    "Symbol": "AN",
+    "AmountPerPlayer": 1,
+    "FirstMovementRules": [
+        {
+            "DirectionName": "BackLeft",
+            "MoveVector": {
+                "RowDelta": -1,
+                "ColumnDelta": -1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "Back",
+            "MoveVector": {
+                "RowDelta": -1,
+                "ColumnDelta": 0
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "BackRight",
+            "MoveVector": {
+                "RowDelta": -1,
+                "ColumnDelta": 1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "Left",
+            "MoveVector": {
+                "RowDelta": 0,
+                "ColumnDelta": -1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 2
+        },
+        {
+            "DirectionName": "Right",
+            "MoveVector": {
+                "RowDelta": 0,
+                "ColumnDelta": 1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 2
+        },
+        {
+            "DirectionName": "Forwardleft",
+            "MoveVector": {
+                "RowDelta": 1,
+                "ColumnDelta": -1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "Forward",
+            "MoveVector": {
+                "RowDelta": 1,
+                "ColumnDelta": 0
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        },
+        {
+            "DirectionName": "ForwardRight",
+            "MoveVector": {
+                "RowDelta": 1,
+                "ColumnDelta": 1
+            },
+            "MinDistance": 1,
+            "MaxDistance": 1
+        }
+    ],
+    "SecondMoveSettings": {
+        "IsActive": true,
+        "IsConditional": true,
+        "InverseAxes": false,
+        "MinCombinedDistance": 3,
+        "MaxCombinedDistance": 3
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "P1": {
+        "Name": "Jeffa",
+        "IsPlayerOne": true,
+        "IsHuman": true
+    },
+    "P2": {
+        "Name": "Rivio",
+        "IsPlayerOne": false,
+        "IsHuman": true
+    },
+    "BoardRows": 20,
+    "BoardColumns": 9,
+    "UnitTypes": [],
+    "UnitTypePaths": [
+        "Anchor.json",
+        "Compass.json",
+        "Defender.json",
+        "Keeper.json",
+        "Key.json",
+        "Striker.json",
+        "WingBack.json",
+        "Winger.json"
+    ],
+    "LineUpsPath": "LineUps.json"
+}
